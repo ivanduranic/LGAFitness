@@ -15,10 +15,10 @@ header {
 }
 
 header .photo img {
-  width: 200px;
-  height: 100px;
-  border-radius: 50%;
-  border: 3px solid #fff;
+  width: 150px; /* or any size you prefer */
+  height: 150px; /* Make sure the height matches the width for a square shape */
+  border-radius: 50%; /* Keeps the image circular */
+  object-fit: cover; /* Ensures the image covers the area without stretching */
   margin-bottom: 1rem;
 }
 
